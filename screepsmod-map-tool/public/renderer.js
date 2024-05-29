@@ -936,6 +936,8 @@ async function autoGen(sizex, sizey, generate3X3) {
      sizex = 4
      sizey = 4
      generateOptions.generate3X3 = true   
+  } else {
+     generateOptions.generate3X3 = false
   }
   const hw = sizex / 2
   const hh = sizey / 2
